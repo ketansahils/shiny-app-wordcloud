@@ -18,7 +18,7 @@ library(ggplot2)
 library(wordcloud)
 library(stringr)
 
-source("Server.R")
-source("UI.R")
+source("Servergt.R")
+source("UIgt.R")
 
 shinyApp(ui = ui, server = server)
