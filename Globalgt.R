@@ -21,4 +21,4 @@ library(stringr)
 #source("Servergt.R")
 #source("UIgt.R")
 
-shinyApp(ui = ui, server = server)
+#shinyApp(ui = ui, server = server)
