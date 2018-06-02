@@ -1,4 +1,4 @@
-server <- function(input, output) {
+shinyServer(function(input, output) {
   
   infile <- reactive({
     infile <- input$datafile
@@ -104,4 +104,4 @@ server <- function(input, output) {
       
       labs(title = "Cooccurrences within 3 words distance", subtitle = "Nouns & Adjective")
   })
-}
+})
