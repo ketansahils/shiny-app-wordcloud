@@ -4,7 +4,6 @@ ui <- dashboardPage(
   dashboardSidebar( width = 0, 
                     "text"
   ),
-  
   dashboardBody(
     tags$head(tags$style(HTML('.content-wrapper,
                               .right-side {
