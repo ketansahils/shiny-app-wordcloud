@@ -1,4 +1,5 @@
-shinyUI(dashboardPage(
+shinyUI(bootstrapPage(
+  dashboardPage(
   
   dashboardHeader(title = "Text Analytics"),
   dashboardSidebar( width = 0, 
@@ -76,4 +77,4 @@ shinyUI(dashboardPage(
                      )
   
   )
-)
+))
