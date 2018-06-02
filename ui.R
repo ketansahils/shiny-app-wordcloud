@@ -1,4 +1,4 @@
-ui <- dashboardPage(
+shinyUI(dashboardPage(
   
   dashboardHeader(title = "Text Analytics"),
   dashboardSidebar( width = 0, 
@@ -76,3 +76,4 @@ ui <- dashboardPage(
                      )
   
   )
+)
